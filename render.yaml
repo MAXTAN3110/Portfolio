@@ -1,0 +1,7 @@
+services:
+    - type: web
+      name: Max's portfolio
+      env: python
+      buildCommand: "pip install -r requirements.txt"
+      startCommand: "gunicorn --chdir src app:server"
+      plan: free

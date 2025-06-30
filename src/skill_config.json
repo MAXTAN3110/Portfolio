@@ -1,0 +1,139 @@
+[
+    {
+        "section_title": "Programming & Data Analysis",
+        "tools": [
+            {
+                "label": "Python",
+                "color": "#4280B1",
+                "avatar": "logo/python.svg"
+            },
+            { "label": "R", "color": "#276ABE", "avatar": "logo/R.svg" },
+            {
+                "label": "SQL",
+                "color": "green",
+                "avatar": "logo/mdi--database.svg"
+            },
+            {
+                "label": "JavaScript",
+                "color": "#F0DB4F",
+                "avatar": "logo/javascript.svg"
+            },
+            {
+                "label": "Pandas",
+                "color": "white",
+                "avatar": "logo/Pandas.png"
+            },
+            {
+                "label": "NumPy",
+                "color": "#4C78D0",
+                "avatar": "logo/NumPy.svg"
+            },
+            {
+                "label": "Scikit-learn",
+                "color": "#F89A36",
+                "avatar": "logo/Scikit_learn.svg"
+            },
+            { "label": "SciPy", "color": "#0466c2", "avatar": "logo/SciPy.svg" }
+        ]
+    },
+    {
+        "section_title": "Visualization & Web Development",
+        "tools": [
+            {
+                "label": "Matplotlib",
+                "color": "#E5CA5C",
+                "avatar": "logo/Matplotlib.svg"
+            },
+            {
+                "label": "Seaborn",
+                "color": "#7DB0BC",
+                "avatar": "logo/seaborn.svg"
+            },
+            {
+                "label": "Plotly",
+                "color": "#119DFF",
+                "avatar": "logo/plotly.svg"
+            },
+            {
+                "label": "Dash",
+                "color": "white",
+                "avatar": "logo/dash.png"
+            },
+            {
+                "label": "HTML5",
+                "color": "#F16524",
+                "avatar": "logo/HTML5.svg"
+            },
+            {
+                "label": "Bootstrap",
+                "color": "#7711F7",
+                "avatar": "logo/Bootstrap.svg"
+            }
+        ]
+    },
+    {
+        "section_title": "ML/AI & Database Management",
+        "tools": [
+            {
+                "label": "MySQL",
+                "color": "#007AA0",
+                "avatar": "logo/mysql.png"
+            },
+            {
+                "label": "PostgreSQL",
+                "color": "#4388bf",
+                "avatar": "logo/postgresql.svg"
+            },
+            {
+                "label": "MongoDB",
+                "color": "#00ED64",
+                "avatar": "logo/mongodb.svg"
+            },
+            {
+                "label": "PyTorch",
+                "color": "#EE4C2C",
+                "avatar": "logo/pytorch.svg"
+            },
+            {
+                "label": "Hugging Face",
+                "color": "#FFD21E",
+                "avatar": "logo/hf-logo.svg"
+            },
+            {
+                "label": "spaCy",
+                "color": "#02A4D6",
+                "avatar": "logo/SpaCy.svg"
+            }
+        ]
+    },
+    {
+        "section_title": "Productivity & Collaboration Tools",
+        "tools": [
+            {
+                "label": "VS Code",
+                "color": "#23AAF2",
+                "avatar": "logo/Visual_Studio_Code.svg"
+            },
+            {
+                "label": "Jupyter Notebook",
+                "color": "#F37821",
+                "avatar": "logo/jupyter.png"
+            },
+            {
+                "label": "Git",
+                "color": "#F05030",
+                "avatar": "logo/Git-Icon.svg"
+            },
+            {
+                "label": "MS Office",
+                "color": "#EB3C00",
+                "avatar": "logo/MS_Office.svg"
+            },
+            {
+                "label": "Power BI",
+                "color": "#F1C93C",
+                "avatar": "logo/power-bi-icon.svg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "id": "hr-analytics",
+        "title": "HR Analytics",
+        "cover": "cover/SC1015_HR.png",
+        "images": [
+            "images/SC1015_HR-1.png",
+            "images/SC1015_HR-2.png",
+            "images/SC1015_HR-3.png",
+            "images/SC1015_HR-4.png",
+            "images/SC1015_HR-5.png"
+        ],
+        "description": "This HR analytics project aims to predict whether a candidate is likely to seek new job opportunities or remain with the company. By framing it as a binary classification problem, the project not only builds predictive models but also uncovers the key factors influencing employee decisions. The process involved thorough data cleaning, handling missing values and class imbalance, followed by exploratory data analysis to identify meaningful patterns and correlations. Multiple machine learning models, including Random Forest, XGBoost, and LightGBM, were developed and evaluated for predictive performance.",
+        "skills_tools": [
+            "Python",
+            "Pandas",
+            "Seaborn",
+            "Scikit-learn",
+            "XGBoost",
+            "LightGBM"
+        ],
+        "keywords": [
+            "Data Analytics",
+            "Binary Classification",
+            "Data Cleaning",
+            "Exploratory Data Analysis",
+            "Machine Learning"
+        ]
+    },
+    {
+        "id": "hrps",
+        "title": "Hotel Reservation Payment System",
+        "cover": "cover/SC2002_HRPS.png",
+        "images": [
+            "images/SC2002_HRPS-1.png",
+            "images/SC2002_HRPS-2.png",
+            "images/SC2002_HRPS-3.png",
+            "images/SC2002_HRPS-4.png"
+        ],
+        "description": "HRPS (Hotel Reservation and Payment System) is a command-line application developed as part of NTU's Object-Oriented Programming course (SC2002). Designed to provide a smooth and intuitive hotel booking experience, the system enables customers to reserve rooms, order food, and manage check-ins and check-outs with ease. The project emphasizes clean software architecture through the application of SOLID principles and design patterns, ensuring long-term scalability and maintainability. To support system planning and communication, the development process included the creation of UML class, sequence, and state machine diagrams. Comprehensive documentation using Javadocs was also produced to detail the class structures and interactions within the application.",
+        "skills_tools": ["Java", "Visual Paradigm", "Javadoc"],
+        "keywords": [
+            "CLI application",
+            "Object-Oriented Programming",
+            "SOLID principles",
+            "UML Diagram",
+            "Design Pattern"
+        ]
+    },
+    {
+        "id": "healthier-me",
+        "title": "Healthier Me",
+        "cover": "cover/SC2006_HealthierMe.png",
+        "images": [
+            "images/SC2006_HealthierMe-1.png",
+            "images/SC2006_HealthierMe-2.png",
+            "images/SC2006_HealthierMe-3.png",
+            "images/SC2006_HealthierMe-4.png",
+            "images/SC2006_HealthierMe-5.png",
+            "images/SC2006_HealthierMe-6.png"
+        ],
+        "description": "Healthier Me is a cross-platform mobile application designed to promote healthier lifestyles by offering smarter food choices and helping users manage their daily calorie intake and expenditure. Built using React Native, the app runs seamlessly on both Android and iOS devices. It features a calorie calculator powered by the Nutritionix API, a daily calorie tracker, personalized diet recommendations, and a restaurant locator to find healthier dining options nearby. The backend integrates Firebase for user authentication and data management, while AWS S3 handles image storage. Early development was guided by class and sequence diagrams designed in Visual Paradigm, ensuring a structured and scalable architecture.",
+        "skills_tools": [
+            "Javascript",
+            "React Native",
+            "Expo",
+            "Firebase Firestore",
+            "AWS S3",
+            "Visual Paradigm"
+        ],
+        "keywords": [
+            "Mobile App Development",
+            "Calorie Tracker",
+            "UI/UX Design",
+            "Software Engineering",
+            "API Integration"
+        ],
+        "external_link": "https://healthierme-showcase.vercel.app/"
+    },
+    {
+        "id": "fifa-analysis",
+        "title": "FIFA Analysis",
+        "cover": "cover/MH3511_FIFA.png",
+        "images": [
+            "images/MH3511_FIFA-1.png",
+            "images/MH3511_FIFA-2.png",
+            "images/MH3511_FIFA-3.png",
+            "images/MH3511_FIFA-4.png",
+            "images/MH3511_FIFA-5.png"
+        ],
+        "description": "This project presents an in-depth statistical analysis of FIFA player data up to the year 2023, exploring patterns and relationships within the world of professional football. Leveraging a dataset that includes player demographics, performance metrics, and market valuations, the project aims to answer a series of insightful questions through data exploration and hypothesis testing using R. Key areas of investigation include physical fitness indicators like BMI, skill-related attributes such as shot accuracy and crossing ability, and the impact of variables like team prestige, jersey number, and footedness on performance. The analysis also incorporates linear regression modeling to identify predictors of player market value.",
+        "skills_tools": ["R", "ggplot2", "dplyr", "stats"],
+        "keywords": [
+            "Data Cleaning",
+            "Exploratory Data Analysis",
+            "Hypothesis Testing",
+            "Statistical Inference",
+            "Linear Regression"
+        ]
+    },
+    {
+        "id": "bookstore-management-system",
+        "title": "Bookstore Management System",
+        "cover": "cover/SC2207_BookstoreDB.jpg",
+        "images": [
+            "images/SC2207_BookstoreDB-1.jpg",
+            "images/SC2207_BookstoreDB-2.png",
+            "images/SC2207_BookstoreDB-3.png",
+            "images/SC2207_BookstoreDB-4.png",
+            "images/SC2207_BookstoreDB-5.png"
+        ],
+        "description": "This project involves the design and implementation of a relational database system for managing bookstore operations using MySQL. The system handles essential entities such as books, bookstores, customers, orders, pricing, and publications, spanning a total of 14 interrelated tables. The development process began with crafting an Entity-Relationship (ER) diagram to model the database schema and relationships clearly. To ensure data consistency and normalization, the schema was refined into Boyce-Codd Normal Form (BCNF). Referential integrity was enforced through foreign key constraints, and custom triggers were implemented to prevent inconsistent data entry and support rollback mechanisms.",
+        "skills_tools": ["SQL", "MySQL"],
+        "keywords": [
+            "Relational Database Design",
+            "ER Modelling",
+            "Normalization (BCNF)",
+            "Referential Integrity",
+            "Transaction Control"
+        ]
+    },
+    {
+        "id": "elo-merchant-category-recommendation",
+        "title": "Elo Merchant Category Recommendation",
+        "cover": "cover/SC4000_Elo.png",
+        "images": [
+            "images/SC4000_Elo-1.png",
+            "images/SC4000_Elo-2.png",
+            "images/SC4000_Elo-3.png",
+            "images/SC4000_Elo-4.png",
+            "images/SC4000_Elo-5.png"
+        ],
+        "description": "This project tackles the Elo Merchant Category Recommendation challenge from Kaggle, which involves predicting customer loyalty scores for Elo, a leading payment service provider in Brazil. The loyalty score reflects a customer's likelihood to repeatedly engage with specific merchants, a critical metric for Elo's promotional strategies and long-term partnerships. To address this regression problem, the dataset underwent extensive preprocessing and exploratory data analysis to uncover patterns and ensure data quality. Feature engineering played a central role in enhancing model performance, with techniques such as aggregating transactions by card ID and generating time-based behavioral features. A LightGBM model was employed for prediction, supported by feature importance analysis, k-fold cross-validation, and grid search for hyperparameter tuning.",
+        "skills_tools": ["Kaggle", "Python", "NumPy", "Pandas", "Scikit-learn"],
+        "keywords": [
+            "Machine Learning",
+            "LightGBM",
+            "Feature Engineering",
+            "Temporal Analysis",
+            "Regression Modelling",
+            "Hyperparameter Optimization"
+        ],
+        "external_link": "https://www.kaggle.com/competitions/elo-merchant-category-recommendation"
+    },
+    {
+        "id": "financial-sentiment-analysis",
+        "title": "Financial Sentiment Analysis",
+        "cover": "cover/SC4001_Financial.jpg",
+        "images": [
+            "images/SC4001_Financial-1.png",
+            "images/SC4001_Financial-2.png",
+            "images/SC4001_Financial-3.png",
+            "images/SC4001_Financial-4.png",
+            "images/SC4001_Financial-5.png"
+        ],
+        "description": "This project focuses on tackling the challenge of limited labeled data in sentiment analysis, particularly within the financial domain. By applying transfer learning techniques, a pre-trained BERT model is adapted to perform sentiment classification on financial news headlines. The approach begins by fine-tuning the model on a general-purpose source domain dataset (Twitter sentiment), followed by a second phase of fine-tuning on a smaller, domain-specific target dataset (financial headlines). To retain general linguistic patterns while adapting to the new domain, the first 10 layers of the BERT model are frozen during the second phase. This preserves the model's foundational language understanding while allowing the remaining layers to specialize in financial sentiment. To evaluate effectiveness, the project includes a comparative analysis against two baselines: direct fine-tuning on the target domain and zero-shot classification using ChatGPT-3.5-turbo. Results demonstrate the benefits of transfer learning for low-resource sentiment analysis tasks.",
+        "skills_tools": [
+            "Python",
+            "PyTorch",
+            "Hugging Face",
+            "Transformer",
+            "BERT",
+            "ChatGPT"
+        ],
+        "keywords": [
+            "NLP",
+            "Sentiment Analysis",
+            "Tokenization",
+            "Transfer Learning",
+            "Domain Adaptation",
+            "Pre-trained Models"
+        ]
+    },
+    {
+        "id": "similarity-search-benchmark",
+        "title": "Similarity Search Benchmark for E-Commerce",
+        "cover": "cover/SC4020_Similarity.png",
+        "images": [
+            "images/SC4020_Similarity-1.png",
+            "images/SC4020_Similarity-2.png",
+            "images/SC4020_Similarity-3.png",
+            "images/SC4020_Similarity-4.png",
+            "images/SC4020_Similarity-5.png",
+            "images/SC4020_Similarity-6.png"
+        ],
+        "description": "This project compares three state-of-the-art similarity search methods, Locality Sensitive Hashing (LSH), Inverted File Index with Product Quantization (IVF-PQ) and Hierarchical Navigable Small World (HNSW), on a combined image and text dataset from a Shopee Kaggle competition. Product images are encoded using a pre-trained VGG16 model, while product titles are embedded with spaCy's en_core_web_lg. All methods are implemented with FAISS and evaluated on four performance metrics: training time, memory usage, query latency and L2 distance deviation. The results highlight each technique's advantages and trade-offs, offering guidance on the optimal approach for large-scale multi-modal search in e-commerce.",
+        "skills_tools": ["Python", "Numpy", "FAISS", "Tensorflow", "spaCy"],
+        "keywords": [
+            "E-commerce Query",
+            "Similarity Search",
+            "Vector Embeddings",
+            "Algorithm Analysis",
+            "Performance Benchmarking"
+        ],
+        "external_link": "https://www.pinecone.io/learn/series/faiss/faiss-tutorial/"
+    },
+    {
+        "id": "query-plan-WHAT-IF-Analyzer",
+        "title": "Query Plan WHAT-IF Analyzer",
+        "cover": "cover/SC3020_Query.png",
+        "images": [
+            "images/SC3020_Query-1.png",
+            "images/SC3020_Query-2.png",
+            "images/SC3020_Query-3.png",
+            "images/SC3020_Query-4.png",
+            "images/SC3020_Query-5.png",
+            "images/SC3020_Query-6.png"
+        ],
+        "description": "The Query Plan WHAT-IF Analyzer is an interactive Dash web application that transforms complex database optimization into an intuitive visual experience. Users can connect to PostgreSQL databases, execute custom SQL queries, and instantly visualize execution plans retrieved using PostgreSQL's EXPLAIN function through interactive Cytoscape graphs. The tool displays both original query execution plans (QEP) and alternative query plans (AQP) for the same query, with nodes revealing essential metrics including operation types, estimated costs, and row counts. Through the planner method configuration section, users can adjust parameters in real-time to experiment with different optimization strategies and immediately assess their performance impact via the plan comparison tables.",
+        "skills_tools": ["Python", "PostgreSQL", "Dash", "Dash Cytoscape"],
+        "keywords": [
+            "Graphical User Interface",
+            "Query Plan Visualization",
+            "Database Optimzation",
+            "Interactive Dashboard"
+        ]
+    },
+    {
+        "id": "salary-analysis-dashboard",
+        "title": "Data Tech Job Salary Analysis Dashboard",
+        "cover": "cover/SC4024_Salary.png",
+        "images": [
+            "images/SC4024_Salary-1.png",
+            "images/SC4024_Salary-2.png",
+            "images/SC4024_Salary-3.png",
+            "images/SC4024_Salary-4.png",
+            "images/SC4024_Salary-5.png",
+            "images/SC4024_Salary-6.png"
+        ],
+        "description": "The Data Tech Job Salary Analysis Dashboard is an interactive web application built with Dash and Plotly, designed to uncover insights from the Kaggle Data Science Job Salaries dataset. A key preprocessing step involved consolidating hundreds of raw job titles into six main categories, using Natural Language Toolkit (NLTK) for tokenization, regular expressions (regex) for pattern matching, and few-shot prompting with ChatGPT to handle ambiguous cases. The dashboard then lets users explore how factors such as job category, geographic location, and company size influence salary distributions. With multi-page navigation and responsive plots, users can zoom, hover, and filter data points to drill down into specific segments, facilitating an engaging and intuitive data-driven story.",
+        "skills_tools": [
+            "Python",
+            "Pandas",
+            "Dash",
+            "Plotly",
+            "Natural Language Toolkit"
+        ],
+        "keywords": [
+            "Job Salary Analysis",
+            "Data Visualization",
+            "Explanatory Data Analysis",
+            "Interactive Dashboard",
+            "Text Classification"
+        ],
+        "external_link": "https://data-tech-job-salary-analysis-dashboard.onrender.com/"
+    },
+    {
+        "id": "final-year-project",
+        "title": "Multivariate Time Series Explainable AI (Final Year Project)",
+        "cover": "cover/FYP.png",
+        "images": [
+            "images/FYP-1.png",
+            "images/FYP-2.png",
+            "images/FYP-3.png",
+            "images/FYP-4.png",
+            "images/FYP-5.png",
+            "images/FYP-6.png"
+        ],
+        "skills_tools": [
+            "Python",
+            "PyTorch",
+            "NumPy",
+            "Variational Autoencoder",
+            "Integrated Gradients"
+        ],
+        "keywords": [
+            "Explainable AI (XAI)",
+            "Multivariate Time-Series",
+            "Deep Learning",
+            "Model Intepretability",
+            "Time-Series Forecasting"
+        ]
+    }
+]

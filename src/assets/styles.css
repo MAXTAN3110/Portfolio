@@ -1,0 +1,127 @@
+.mantine-Button-root[data-variant="outline"]:hover {
+    background-color: #24def780 !important;
+}
+
+.badge-type-1 {
+    font-size: calc(0.8vw + 0.2rem);
+    font-weight: 600;
+    text-transform: none;
+    border-width: 0.1rem;
+    transition: box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.badge-type-1:hover {
+    color: var(--badge-color);
+    box-shadow: inset 0 0 0.55em 0em var(--badge-color);
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.badge-type-2 {
+    font-size: calc(1vw + 0.2rem);
+    font-weight: 500;
+}
+
+.badge-type-2:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Project cover image transition */
+.project-cover {
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 0.3s ease;
+}
+
+/* Project overlay initial state */
+.project-overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+}
+
+/* Project card hover effects */
+.project-card {
+    aspect-ratio: 16/9;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.3) !important;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: rgba(36, 222, 247, 0.3) 0px 4px 16px,
+        rgba(36, 222, 247, 0.3) 0px 8px 24px,
+        rgba(36, 222, 247, 0.3) 0px 16px 56px !important;
+}
+
+/* Hover state for cover and overlay */
+
+.project-card-container {
+    height: 100%;
+}
+.project-card-container:hover .project-cover {
+    opacity: 0.5;
+}
+
+.project-card-container:hover .project-overlay {
+    opacity: 1;
+}
+
+.project-image {
+    height: 40vh;
+    object-fit: contain;
+    display: block;
+    border-radius: 15px;
+    background-color: rgba(245, 245, 245, 0.7);
+    cursor: pointer;
+}
+
+.dmc-indicator {
+    width: 1rem;
+    height: 0.4rem;
+    transition: width 250ms ease;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    &[data-active] {
+        width: 2.5rem;
+    }
+}
+
+.contact-group {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    justify-content: center;
+    max-width: 70vw;
+    margin: 0 auto;
+}
+
+.contact-group:hover {
+    box-shadow: rgba(36, 222, 247, 0.3) 0px 4px 16px,
+        rgba(36, 222, 247, 0.3) 0px 8px 24px,
+        rgba(36, 222, 247, 0.3) 0px 16px 56px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.send-button {
+    background-color: #24def7;
+    color: #0a1930;
+    font-weight: bold;
+}
+.send-button:hover {
+    transition: transform 0.2s ease;
+    background-color: #24def7;
+    transform: scale(1.1);
+}
+
+.send-button:hover svg.iconify.iconify--ri {
+    transition: transform 0.2s ease;
+    color: white !important;
+}
