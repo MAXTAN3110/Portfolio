@@ -18,6 +18,7 @@ app = Dash(
     ],
     use_pages=True,
 )
+server = app.server
 
 app.layout = dmc.MantineProvider(
     [
