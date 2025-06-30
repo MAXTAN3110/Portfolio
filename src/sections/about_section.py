@@ -1,11 +1,13 @@
 import json
+from pathlib import Path
 import dash_bootstrap_components as dbc
 from dash import html
 from dash_iconify import DashIconify
 from components.badge import create_badge_components
 
-
-with open("src/skill_config.json") as f:
+src_dir = Path(__file__).parent.parent
+json_path = src_dir / "skill_config.json"
+with open(json_path, "r") as f:
     SKILLS = json.load(f)
 
 

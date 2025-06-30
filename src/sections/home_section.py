@@ -1,8 +1,11 @@
+from pathlib import Path
 from dash import html
 import dash_bootstrap_components as dbc
 import dash_mantine_components as dmc
 
-with open("src/assets/bot.svg", "r") as f:
+src_dir = Path(__file__).parent.parent
+svg_path = src_dir / "assets" / "bot.svg"
+with open(svg_path, "r") as f:
     bot_img = f.read()
 bot_img = bot_img.replace('fill="#000000"', 'fill="#24DEF7"')
 

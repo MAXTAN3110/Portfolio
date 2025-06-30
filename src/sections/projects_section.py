@@ -1,10 +1,12 @@
 import json
+from pathlib import Path
 from dash import html
 import dash_bootstrap_components as dbc
 from components.project_card import create_project_grid
 
-
-with open("src/project_config.json", "r") as f:
+src_dir = Path(__file__).parent.parent
+json_path = src_dir / "project_config.json"
+with open(json_path, "r") as f:
     PROJECTS = json.load(f)
 
 

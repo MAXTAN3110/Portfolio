@@ -1,5 +1,6 @@
 import dash
 import json
+from pathlib import Path
 from dash import html
 import dash_bootstrap_components as dbc
 import dash_mantine_components as dmc
@@ -10,7 +11,10 @@ from pages.fyp_page import create_fyp_layout
 
 dash.register_page(__name__, path_template="/projects/<project_id>", name="Project")
 
-with open("src/project_config.json") as f:
+
+src_dir = Path(__file__).parent.parent
+json_path = src_dir / "project_config.json"
+with open(json_path, "r") as f:
     projects = {p["id"]: p for p in json.load(f)}
 
 

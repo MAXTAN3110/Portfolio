@@ -33,4 +33,4 @@ register_server_callbacks(app)
 register_client_callback(app)
 
 if __name__ == "__main__":
-    app.run(debug=True, dev_tools_ui=True, port=8050)
+    app.run(debug=True, dev_tools_ui=False)

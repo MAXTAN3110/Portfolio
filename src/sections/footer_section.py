@@ -1,9 +1,12 @@
 import json
+from pathlib import Path
 import dash_bootstrap_components as dbc
 from dash import html, dcc
 from dash_iconify import DashIconify
 
-with open("src/info_config.json") as f:
+src_dir = Path(__file__).parent.parent
+json_path = src_dir / "info_config.json"
+with open(json_path, "r") as f:
     CONFIG = json.load(f)
 
 

@@ -1,4 +1,5 @@
 import os, smtplib
+from pathlib import Path
 from email.mime.text import MIMEText
 import json
 import dash
@@ -8,11 +9,14 @@ from dotenv import load_dotenv
 from components.project_nav_buttons import create_project_nav_buttons
 from components.alert import create_success_alert, create_warning_alert
 
-with open("src/project_config.json", "r") as f:
+src_dir = Path(__file__).parent.parent
+json_path = src_dir / "project_config.json"
+with open(json_path, "r") as f:
     PROJECTS = json.load(f)
 PROJECT_IDS = [project["id"] for project in PROJECTS]
 
-with open("src/info_config.json") as f:
+json_path = src_dir / "info_config.json"
+with open(json_path, "r") as f:
     CONFIG = json.load(f)
 
 # Load environment variables
