@@ -88,7 +88,7 @@ def create_about_section():
                                     ),
                                     html.P(
                                         [
-                                            "Bachelor of Science in Data Science & Artificial Intelligence at Nanyang Technological University",
+                                            "Bachelor of Computing in Data Science & Artificial Intelligence at Nanyang Technological University",
                                             html.Br(),
                                             "(Aug 2021 - May 2025)",
                                         ],

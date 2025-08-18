@@ -130,6 +130,11 @@
                 "avatar": "logo/MS_Office.svg"
             },
             {
+                "label": "AWS",
+                "color": "#FF9900",
+                "avatar": "logo/aws_logo.svg"
+            },
+            {
                 "label": "Power BI",
                 "color": "#F1C93C",
                 "avatar": "logo/power-bi-icon.svg"
