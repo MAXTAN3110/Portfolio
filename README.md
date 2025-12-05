@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio website built with Python Dash showcasing my skills and projects.
 
-## 🚀 [Live Demo](https://maxs-portfolio.onrender.com/)
+## 🚀 [Live Demo](https://max-portfolio-iota.vercel.app/)
 
 ## Screenshots
 
